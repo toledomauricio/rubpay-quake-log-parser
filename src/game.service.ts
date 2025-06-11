@@ -1,15 +1,16 @@
 import { Injectable } from '@nestjs/common';
 import { readFileSync } from 'fs';
+import { GameResult } from './interfaces/game-result.interface';
 
 @Injectable()
 export class GameService {
-  parseGames() {
-    const logContent = readFileSync('./games.log', 'utf-8');
-    const lines = logContent.split('\n');
+  parseGames(): GameResult[] {
+    const logContent: string = readFileSync('./games.log', 'utf-8');
+    const lines: string[] = logContent.split('\n');
     
-    const games = [];
-    let gameNumber = 1;
-    let killCount = 0;
+    const games: GameResult[] = [];
+    let gameNumber: number = 1;
+    let killCount: number = 0;
     
     for (const line of lines) {
       if (line.includes('InitGame:')) {
@@ -39,12 +40,12 @@ export class GameService {
     return games;
   }
 
-  getAllGames() {
+  getAllGames(): GameResult[] {
     return this.parseGames();
   }
 
-  getGameById(gameId: string) {
-    const games = this.parseGames();
-    return games.find(game => game.game === gameId);
+  getGameById(gameId: string): GameResult | undefined {
+    const games: GameResult[] = this.parseGames();
+    return games.find((game: GameResult) => game.game === gameId);
   }
 }
