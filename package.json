@@ -1,0 +1,10 @@
+{
+  "name": "rubpay-quake-log-parser",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main"
+  }
+}
