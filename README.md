@@ -12,6 +12,10 @@ Optei por esses dois porque identifico neles os pontos mais relevantes da tarefa
 
 Sobre o Exercício 2, não vi desafios significativos para desenvolvê-lo. Apenas considerei o exercício 1 e 3 relevantes o suficientes para desmonstrar as skills de códigos e apresentação das soluções.
 
+## Projeto disponível em produção ✅
+
+Para facilitar os testes, a collection do Postman já está configurada com o ambiente de produção em http://quake-logs.ddns.net/. Assim, você pode testar a API de forma rápida sem necessidade de setup no seu ambiente local!
+
 ## Funcionalidades do projeto
 
 - Total de kills por jogo
