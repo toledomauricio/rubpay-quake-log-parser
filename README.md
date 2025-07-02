@@ -1,6 +1,6 @@
 # Rubpay Quake Log Parser
 
-API desenvolvida em NestJS para analisar logs Quake e extrair estatísticas de partidas.
+API desenvolvida em NestJS para analisar logs do jogo Quake e extrair estatísticas de partidas.
 
 ## Funcionalidades do projeto
 
@@ -122,8 +122,8 @@ A aplicação roda na porta 3000 por padrão. Para alterar, modifique o arquivo 
 ## Exemplo de Uso
 
 1. Inicie a aplicação
-2. Acesse `http://localhost:3000/games` para ver todas as partidas
-3. Acesse `http://localhost:3000/games/game_2` para ver uma partida específica
+2. Acesse `http://localhost/games` para ver todas as partidas
+3. Acesse `http://localhostgames/game_2` para ver uma partida específica
 
 Os dados retornados podem ser utilizados para:
 - Dashboards de estatísticas
@@ -146,11 +146,11 @@ Você pode testar os endpoints usando curl ou postman:
 
 ```bash
 # Listar todas as partidas
-curl http://localhost:3000/games
+curl http://localhost/games
 
 # Obter partida específica
-curl http://localhost:3000/games/game_2
+curl http://localhost/games/game_2
 ```
 
-Ou importe a collection do Postman aqui: 
+Ou importe a collection do Postman aqui: [Quake_Logs_API.postman_collection.json](./Quake_Logs_API.postman_collection.json)
 ```
