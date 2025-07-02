@@ -3,14 +3,7 @@
 API desenvolvida em NestJS para analisar logs do jogo Quake e extrair estatísticas de partidas.
 
 ## Abordagens escolhidas para o desafio:
-
-Os exercícios escolhidos para este desafio foram o Exercício 1 e o Exercício 3 de backend:
-https://github.com/rubcube/hiring-exercises/blob/master/backend/Instructions.md#hist%C3%B3ria-1
-https://github.com/rubcube/hiring-exercises/blob/master/backend/Instructions.md#hist%C3%B3ria-1
-
-Optei por esses dois porque identifico neles os pontos mais relevantes da tarefa, que me permitiram demonstrar tanto minhas habilidades de codificação quanto a clareza na apresentação das soluções.
-
-Sobre o Exercício 2, não vi desafios significativos para desenvolvê-lo. Apenas considerei o exercício 1 e 3 relevantes o suficientes para desmonstrar as skills de códigos e apresentação das soluções.
+[ROADMAP.md](./ROADMAP.md)
 
 ## Projeto disponível em produção ✅
 
