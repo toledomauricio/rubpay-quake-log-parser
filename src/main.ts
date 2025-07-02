@@ -4,7 +4,9 @@ import { INestApplication } from '@nestjs/common';
 
 async function bootstrap(): Promise<void> {
   const app: INestApplication = await NestFactory.create(AppModule);
-  await app.listen(3000);
+  const port = process.env.PORT || 80;
+  await app.listen(port);
+  console.log(`Application is running on port ${port}`);
 }
 
 bootstrap().catch((error: Error) => {
