@@ -152,5 +152,4 @@ curl http://localhost/games
 curl http://localhost/games/game_2
 ```
 
-Ou importe a collection do Postman aqui: [Quake_Logs_API.postman_collection.json](./Quake_Logs_API.postman_collection.json)
-```
+Ou importe a collection do Postman aqui: [Quake_Logs_API.postman_collection.json](./src/collections/Quake_Logs_API.postman_collection.json)
