@@ -2,6 +2,9 @@
 
 API desenvolvida em NestJS para analisar logs do jogo Quake e extrair estatísticas de partidas.
 
+## Apresentação em vídeo:
+https://www.youtube.com/watch?v=MIy8xsAF1oU
+
 ## Abordagens escolhidas para o desafio:
 [ROADMAP.md](./ROADMAP.md)
 
